@@ -20,7 +20,7 @@ continueSelector = raw_input("Would you like to get the video list?: ")
 if continueSelector != 'y':
 	sys.exit()
 
-getVideoList.getVideoListFromJSON(output)
+downloadNo = getVideoList.getVideoListFromJSON(output)
 
 
 continueSelector2 = raw_input("JSON file retrieved, Would you like to continue?: ")

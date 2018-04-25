@@ -18,5 +18,3 @@ def concatenateClips(downloadNo):
 
 	concat_clip = mp.concatenate_videoclips(clips, method='compose')
 	concat_clip.write_videofile("final.mp4", fps=60)
-
-concatenateClips(30)

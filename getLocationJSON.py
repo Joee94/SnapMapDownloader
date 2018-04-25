@@ -22,7 +22,7 @@ def GetJSON(lat, lon, epoch, outputFileName):
 
     }
 
-    payload = {"requestGeoPoint":{"lat":lat,"lon":lon},"zoomLevel":12.15,"tileSetId":{"flavor":"default","epoch":epoch,"type":"HEAT"},"radiusMeters":867.7015521518061,"maximumFuzzRadius":0}
+    payload = {"requestGeoPoint":{"lat":lat,"lon":lon},"zoomLevel":15.340000000000007,"tileSetId":{"flavor":"default","epoch":epoch,"type":"HEAT"},"radiusMeters":104.4498920486594,"maximumFuzzRadius":0}
 
     r = requests.post(url, json=payload, headers=headers)
 
